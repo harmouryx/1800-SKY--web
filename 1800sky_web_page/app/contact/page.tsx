@@ -4,8 +4,10 @@ import ContactForm from "@/components/forms/ContactForm";
 import MainTitle from "@/components/MainTitle";
 
 export default function Contact() {
+        const email = process.env.NEXT_PUBLIC__EMAIL;
+
     return(
-        <main className="flex flex-col min-h-screen bg-black text-white">
+        <main className="flex flex-col sm:min-[320px] overflow-hidden ">
             <Header/>
             
             <section id="contact-layout" className="flex-1 flex flex-col md:flex-row max-w-6xl w-full mx-auto px-6 py-12 md:py-24 gap-12 md:gap-20 items-start justify-between">
@@ -32,7 +34,7 @@ export default function Contact() {
                             <li>
                                 <a 
                                     className="text-red-700 hover:text-red-500 underline decoration-2 underline-offset-8 transition-colors" 
-                                    href="mailto:dreamooonium@gmail.com"
+                                        href={`mailto:${email}`}
                                 >
                                     Vía Email
                                 </a>

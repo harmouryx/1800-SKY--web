@@ -9,6 +9,8 @@ export async function sendContactEmail(formData: {
     description: string;
 }) {
     const { username, email, description } = formData;
+
+    const domainEmail = process.env.NEXT_PUBLIC__EMAIL; 
    
     if (!username || !email || !description) {
         return { success: false, error: "Please complete all required fields." };
@@ -24,7 +26,7 @@ export async function sendContactEmail(formData: {
        
         const { data, error } = await resend.emails.send({
         from: "Contact Form <onboarding@resend.dev>",
-        to: "dreamooonium@gmail.com",
+        to: `${domainEmail}`,
         subject: `New contact message from ${username}`,
         html: `
             <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 8px;">

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <main className="flex flex-col min-h-screen bg-black text-white">
+    <main className="flex flex-col sm:min-[320px] overflow-hidden ">
 
       <Header />
 
