@@ -1,5 +1,3 @@
-"use server"
-
 import { Resend } from "resend";
 
 
@@ -18,7 +16,7 @@ export async function sendContactEmail(formData: {
 
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
-        throw new Error("Server Error: RESEND_API_KEY no está configurada en el archivo .env.local");
+        throw new Error("Server Error: RESEND_API_KEY no configurado");
     }
 
     try {
