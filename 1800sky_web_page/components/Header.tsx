@@ -11,7 +11,6 @@ export default function Header() {
                 <ul className="flex flex-wrap justify-between items-center gap-1 ">
                     <li className="font-noto-serif p-2"><Link href="/">About</Link></li>
                     <li className="font-noto-serif p-2"><Link href="/portfolio">Portfolio</Link></li>
-                    <li className="font-noto-serif p-2"><a href={shopLink} target="_blank" rel="noopener noreferrer">Shop</a></li>
                     <li className="font-noto-serif p-2"><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
