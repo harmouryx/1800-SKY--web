@@ -129,13 +129,13 @@ export default function Portfolio() {
         {/* ========================================= */}
         {/* PROYECTO 3: AV. REAL AUDIENCIA            */}
         {/* ========================================= */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="musica-casa-section">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="av-real-audiencia-section">
 
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
               src="/assets/portfolio-works/real_audiencia_mixtapeWNAMEVII.png"
-              alt="Musica hecha en casa"
+              alt="Av. Real Audiencia artworks"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
             />
@@ -165,7 +165,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/contraportada.nuevocambio.png"
+              src="/assets/portfolio-works/artworks/contraportada.nuevocambio.png"
               alt="Musica hecha en casa"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -183,6 +183,96 @@ export default function Portfolio() {
           </article>
 
         </section>
+
+        {/* Header de REELS */}
+        <article className="px-6 md:px-12">
+          <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
+            MULTIMEDIA REELS AND VISUALS
+          </h2>
+          <p className="font-sans text-sm text-neutral-400 mt-2">
+            Videos and visuals edited and designed for artists and content creators
+          </p>
+        </article>
+
+        {/* =========================================  */}
+        {/* PROYECTO 1: ENZOCEROBULTO REEL             */}
+        {/* =========================================  */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="enzocerobulto-section">
+
+          <video controls src="/assets/portfolio-works/reels/enzo_reel_var_2.mp4"></video>
+
+          <article className="px-6 md:px-12">
+            <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
+              Enzocerobulto DE VUELTA SOLO WORLD TOUR 2026 - ECUADOR
+            </h2>
+            <p className="font-sans text-sm text-neutral-400 mt-2">
+              Promotional reel for Enzocerbulto World Tour on his first time on Quito, Ecuador
+            </p>
+          </article>
+
+        </section>
+
+        {/* =========================================  */}
+        {/* PROYECTO 2: AV. REAL AUDIENCIA VISUAL      */}
+        {/* =========================================  */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="dispater-section">
+
+          <video autoPlay loop muted playsInline src="/assets/portfolio-works/reels/real_audicencia_visualizer.mp4"></video>
+
+          <article className="px-6 md:px-12">
+            <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
+              AV. REAL AUDIENCIA VISUAL
+            </h2>
+            <p className="font-sans text-sm text-neutral-400 mt-2">
+              Visual for Dis Pater for his album <q>AV.REAL AUDIENCIA</q>
+            </p>
+          </article>
+
+        </section>
+
+        {/* =========================================  */}
+        {/* PROYECTO 3: MAQUINA CAMALEON REEL          */}
+        {/* =========================================  */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="dispater-section">
+
+          <video controls playsInline src="/assets/portfolio-works/reels/MAQUINA CAMALEÓN.mp4"></video>
+
+          <article className="px-6 md:px-12">
+            <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
+              Máquina Camaleón Bio Reel
+            </h2>
+            <p className="font-sans text-sm text-neutral-400 mt-2">
+              Biographic reel based on <q>La Máquina Camaleón</q> recorded and edited in Ecuador
+            </p>
+          </article>
+
+        </section>
+
+        {/* =========================================  */}
+        {/*  VISUALS VARIOS                 */}
+        {/* =========================================  */}
+
+        <article className="px-6 md:px-12">
+          <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
+            VISUALS
+          </h2>
+          <p className="font-sans text-sm text-neutral-400 mt-2">
+            Visuals with a dreamy or surreal colours
+          </p>
+        </article>
+
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="morevisuals-section">
+
+          <video autoPlay loop muted src="/assets/portfolio-works/visuals/visual_ego_1.mp4"></video>
+
+          <video autoPlay loop muted src="/assets/portfolio-works/visuals/VHS GLITCH 3 RAINBOW LINES_1.mp4"></video>
+
+          <video autoPlay loop muted src="/assets/portfolio-works/visuals/visual_ego_2.mp4"></video>
+
+        </section>
+
+
+
 
       </section>
 

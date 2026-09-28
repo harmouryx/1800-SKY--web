@@ -28,7 +28,7 @@ export default function Contact() {
                                     rel="noopener noreferrer"
                                     href="https://www.instagram.com/skytrayzx"
                                 >
-                                    Vía Instagram
+                                    Instagram
                                 </a>
                             </li>
                             <li>
@@ -36,7 +36,7 @@ export default function Contact() {
                                     className="text-red-700 hover:text-red-500 underline decoration-2 underline-offset-8 transition-colors"
                                     href={`mailto:${email}`}
                                 >
-                                    Vía Email
+                                    Email
                                 </a>
                             </li>
                         </ul>

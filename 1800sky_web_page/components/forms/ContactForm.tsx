@@ -104,7 +104,7 @@ export default function ContactForm() {
             {...register("username")}
             id="username"
             aria-invalid={Boolean(errors.username)}
-            placeholder="Pietro Schiavo"
+            placeholder="Your Name Here"
             className="h-11 w-full rounded-md border border-input/50 px-4 text-foreground transition-all placeholder:text-muted-foreground focus-visible:border-red-600 focus-visible:ring-2 focus-visible:ring-red-600"
             autoComplete="off"
             disabled={isSubmitting}
@@ -125,7 +125,7 @@ export default function ContactForm() {
             id="email"
             type="email"
             aria-invalid={Boolean(errors.email)}
-            placeholder="pietro.schiavo@example.com"
+            placeholder="username@domain.com"
             className="h-11 w-full rounded-md border border-input/50 px-4 text-foreground transition-all placeholder:text-muted-foreground focus-visible:border-red-600 focus-visible:ring-2 focus-visible:ring-red-600"
             autoComplete="off"
             disabled={isSubmitting}
@@ -139,7 +139,7 @@ export default function ContactForm() {
 
         <Field data-invalid={Boolean(errors.description)} className="flex w-full flex-col gap-1">
           <FieldLabel htmlFor="description" className="text-sm font-medium font-sans text-white">
-            Your message:
+            Message:
           </FieldLabel>
           <InputGroup>
             <InputGroupTextarea
