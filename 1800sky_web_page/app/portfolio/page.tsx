@@ -47,7 +47,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/bruklyn-idea_4.png"
+              src="/assets/portfolio-works/artworks/bruklyn-idea_4.png"
               alt="kobe-artwork-cover-bruklyn"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -86,7 +86,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/musica_en_casa_alter_4.png"
+              src="/assets/portfolio-works/artworks/musica_en_casa_alter_4.png"
               alt="Musica hecha en casa"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -96,7 +96,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/back_cover_musica_en_casa.png"
+              src="/assets/portfolio-works/artworks/back_cover_musica_en_casa.png"
               alt="Contraportada"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -134,7 +134,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/real_audiencia_mixtapeWNAMEVII.png"
+              src="/assets/portfolio-works/artworks/real_audiencia_mixtapeWNAMEVII.png"
               alt="Av. Real Audiencia artworks"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -145,7 +145,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/real_audiencia_mixtapeiX.png"
+              src="/assets/portfolio-works/artworks/real_audiencia_mixtapeiX.png"
               alt="Contraportada"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -155,7 +155,7 @@ export default function Portfolio() {
           <div className="w-full aspect-square relative border border-neutral-800 bg-neutral-900">
             <Image
               className="object-cover"
-              src="/assets/portfolio-works/real_audiencia_mixtapev.png"
+              src="/assets/portfolio-works/artworks/real_audiencia_mixtapev.png"
               alt="Contraportada"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
