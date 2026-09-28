@@ -199,7 +199,7 @@ export default function Portfolio() {
         {/* =========================================  */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="enzocerobulto-section">
 
-          <video controls src="/assets/portfolio-works/reels/enzo_reel_var_2.mp4"></video>
+          <video controls src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/enzo_reel_var_2.mp4?vercel-blob-valid-until=1790636175363&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=JyqWW3tn-yTHxlAOMAE9CQTM3wpSSxzQP2_OsCrIZWU"></video>
 
           <article className="px-6 md:px-12">
             <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
@@ -217,7 +217,7 @@ export default function Portfolio() {
         {/* =========================================  */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="dispater-section">
 
-          <video autoPlay loop muted playsInline src="/assets/portfolio-works/reels/real_audicencia_visualizer.mp4"></video>
+          <video autoPlay loop muted playsInline src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/real_audicencia_visualizer.mp4?vercel-blob-valid-until=1790636194122&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=QCNrlwZZSBldcMGqzbxK75JKDe4sMrVSgBSeqq-ApzU"></video>
 
           <article className="px-6 md:px-12">
             <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
@@ -235,7 +235,7 @@ export default function Portfolio() {
         {/* =========================================  */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="dispater-section">
 
-          <video controls playsInline src="/assets/portfolio-works/reels/MAQUINA CAMALEÓN.mp4"></video>
+          <video controls playsInline src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/MAQUINA%20CAMALE%C3%93N.mp4?vercel-blob-valid-until=1790635992122&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=AQ3HtkgNEYCkClJS__PEsVFHG_n7Riiy3Gp6MH_fEkI"></video>
 
           <article className="px-6 md:px-12">
             <h2 className="font-noto-serif text-xl md:text-2xl font-bold">
@@ -263,11 +263,11 @@ export default function Portfolio() {
 
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 items-start mt-8" id="morevisuals-section">
 
-          <video autoPlay loop muted src="/assets/portfolio-works/visuals/visual_ego_1.mp4"></video>
+          <video autoPlay loop muted src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/visual_ego_1.mp4?vercel-blob-valid-until=1790636211460&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=NnlgdvBbuhfYr4J0rN-uJhpqJbUqKtWg7bCFwY8NNmY"></video>
 
-          <video autoPlay loop muted src="/assets/portfolio-works/visuals/VHS GLITCH 3 RAINBOW LINES_1.mp4"></video>
+          <video autoPlay loop muted src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/VHS%20GLITCH%203%20RAINBOW%20LINES_1.mp4?vercel-blob-valid-until=1790636021980&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=hXf9922rIgiGp2KXrOTPWRNmbI9DFs8k7G-TYQMtVlQ"></video>
 
-          <video autoPlay loop muted src="/assets/portfolio-works/visuals/visual_ego_2.mp4"></video>
+          <video autoPlay loop muted src="https://zlwxf6aowuhlbgsm.private.blob.vercel-storage.com/visual_ego_2.mp4?vercel-blob-valid-until=1790636226592&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfekx3WGY2QW93VUhsQkdzbSIsIm93bmVySWQiOiJ0ZWFtX0JLdmRlczJlOHZXbndGTUc1TjE1anpFcyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzkwNjcxNTQ1NzcwLCJpYXQiOjE3OTA2MjgzNDYxMzZ9.5rGYlDaGESLiUmrn91lpIVtu6uw0K63PpzFLm6FP4cQ&vercel-blob-signature=oDFm2TlBLYHQpnAA94QB3fa3PneM9Jfhh2NECdyu5iI"></video>
 
         </section>
 
