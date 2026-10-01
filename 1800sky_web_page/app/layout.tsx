@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { DotGothic16, Geist, Geist_Mono, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from '@vercel/analytics/next';
+
 
 const dotGothic16 = DotGothic16({
   weight: "400",
@@ -43,6 +45,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {children}
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
