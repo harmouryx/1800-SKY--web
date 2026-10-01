@@ -7,10 +7,10 @@ export default function Contact() {
     const email = process.env.NEXT_PUBLIC__EMAIL;
 
     return (
-        <main className="flex flex-col sm:min-[320px] overflow-hidden ">
+        <main className="flex flex-col sm:min-[320px] overflow-x-clip ">
             <Header />
 
-            <section id="contact-layout" className="flex-1 flex flex-col md:flex-row max-w-6xl w-full mx-auto px-6 py-12 md:py-24 gap-12 md:gap-20 items-start justify-between">
+            <section id="contact-layout" className="flex-1 flex flex-col p-4 md:flex-row max-w-6xl w-full mx-auto px-6 py-12 md:py-24 gap-12 md:gap-20 items-start justify-between">
 
                 <article id="contact-info-panel" className="flex-1 flex flex-col justify-between h-full gap-8">
                     <header id="contact-title-container" className="flex flex-col">
@@ -20,7 +20,7 @@ export default function Contact() {
                     </header>
 
                     <nav id="contact-social-links" className="mt-8 md:mt-16">
-                        <ul className="flex flex-col gap-4 font-dotgothic16 text-2xl sm:text-3xl">
+                        <ul className="flex  gap-4 font-dotgothic16 text-2xl sm:text-3xl">
                             <li>
                                 <a
                                     className="text-red-700 hover:text-red-500 underline decoration-2 underline-offset-8 transition-colors"

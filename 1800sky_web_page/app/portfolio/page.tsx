@@ -14,7 +14,7 @@ export default async function Portfolio() {
 
 
   return (
-    <main className="flex flex-col sm:min-[320px] overflow-hidden ">
+    <main className="flex flex-col sm:min-[320px] overflow-x-clip ">
 
       <Header />
 
